@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="con" >
+		<h1>Welcome to Paradish Private Hospital</h1>
+			<form action="connect.php" method="POST" class="form">
+				<div class="input-box">
+					<label>Name:</label>
+					<input type="text" id="name" placeholder="Enter Name" name="name" required/>
+				</div>
+
+				<div class="input-box">
+					<label>Email Address:</label>
+					<input type="text" id="email" placeholder="Enter Email" name="email" style="text-transform: lowercase" required/>
+				</div>
+
+				<div class="column">
+					<div class="input-box">
+					<label>Phone:</label>
+					<input type="text" id="phone" placeholder="Enter Phone Number" name="phone" required/>
+					</div>
+				
+			
+					<div class="input-box">
+						<label>Date:</label>
+						<input type="Date" id="date" name="date" required/>
+					</div>
+				</div>	
+				<div class="column">
+					<div class="select-box">
+						<select  name="doctor">
+							<option>Doctors</option>
+							<option>Dr. Emily Foster</option>
+							<option>Dr. Natasha</option>
+							<option>Dr. Jasmine Lopez</option>
+							<option>Dr. Maya Reynolds</option>
+							<option>Dr. Alexander Wong</option>
+							<option>Dr. Olivia Mitchell</option>
+							<option>Dr. Natalie</option>
+							<option>Dr. Dominic Harper</option>
+							<option>Dr. Michal</option>
+						</select>
+						
+					</div>
+					
+				</div>
+				<button>submit</button>
+				
+			</form>
+		
+	</div>
+				
+
+</body>
+</html>
